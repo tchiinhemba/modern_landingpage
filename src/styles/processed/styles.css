@@ -13,7 +13,6 @@
 
 .first__container {
   flex: 1;
-  background-color: green;
   display: flex;
 }
 
@@ -39,17 +38,30 @@
   align-items: center;
 }
 
+.intro__text {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.intro__text p {
+  display: inline-block;
+}
+
 .content {
+  width: 35rem;
   font-size: 3.5rem;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   background-color: rgba(0, 0, 0, 0.4);
-  padding: 2rem 0;
-  padding-right: 4rem;
+  padding: 3rem 0;
 }
 
 .tittle {
   color: white;
+}
+
+.btn__container {
+  display: flex;
 }
 
 .get__start {
