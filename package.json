@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/eladioclaudio/modern_landingpage/issues"
   },
-  "homepage": "https://github.com/eladioclaudio/modern_landingpage#readme"
+  "homepage": "https://github.com/eladioclaudio/modern_landingpage#readme",
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
+  }
 }
