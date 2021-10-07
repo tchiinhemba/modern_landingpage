@@ -129,7 +129,7 @@
   background: #1135f1;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   html {
     width: 100%;
   }
