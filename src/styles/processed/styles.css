@@ -129,7 +129,12 @@
   background: #1135f1;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
+  img {
+    width: 180px !important;
+  }
+}
+@media screen and (max-width: 414px) {
   html {
     width: 100%;
   }
@@ -139,19 +144,15 @@
     display: flex;
   }
   .banner__section .banner__title {
-    font-size: 2rem !important;
+    font-size: 2.4rem !important;
+    text-align: center;
   }
   .banner__section .content {
     align-items: center;
   }
   .banner__section .button__container-wrapper {
-    display: flex;
     flex-direction: column;
-  }
-  .banner__section .button__text-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
   }
 
   .brands__section main .brands {
@@ -183,10 +184,14 @@
   .main__section main .info__container {
     width: 100%;
     height: auto;
+    padding: 1.5rem;
   }
   .main__section main .info__container content {
     width: 100%;
     height: auto;
+  }
+  .main__section main .info__container content .textmain__container {
+    font-size: 1.2rem !important;
   }
 }
 

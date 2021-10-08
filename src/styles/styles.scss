@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 .wrapper {
@@ -170,7 +171,30 @@
 
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (min-width: 768px) {
+
+
+  .brands__section {
+
+  }
+
+  main {}
+
+  .brands {
+
+  }
+
+  .brands__container {
+    
+    
+  }
+  img {
+     width: 180px !important;
+   }
+ }
+
+@media screen and (max-width: 414px) {
 
   html {
     width: 100%;
@@ -181,24 +205,19 @@
 
 
     .banner__title {
-      font-size: 2rem !important;
+      font-size: 2.4rem !important;
+      text-align: center;
     }
+
     .content {
       align-items: center;
     }
 
     .button__container-wrapper {
-      display: flex;
       flex-direction: column;
+      text-align: center;
     }
-
-    .button__text-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-    }
-
+    
   }
 
   .brands__section {
@@ -239,10 +258,15 @@
       .info__container {
         width: 100%;
         height: auto;
+        padding: 1.5rem;
 
         content {
           width: 100%;
           height: auto;
+
+          .textmain__container {
+            font-size: 1.2rem !important;
+          }
         }
       }
     }
